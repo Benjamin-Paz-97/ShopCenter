@@ -8,6 +8,7 @@ configuramos el config\database.yml para que apunte al servicio de PostgreSQL en
 docker compose build
 
 docker-compose up
+-luego detienes la ejecucion con ctrl+c y continuas con los demas comandos
 
 docker-compose run web bin/rails db:create
 
